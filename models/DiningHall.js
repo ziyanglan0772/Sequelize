@@ -10,7 +10,7 @@ export default (database, DataTypes) => {
       hall_name: {
         type: DataTypes.STRING,
       },
-      hall_location: {
+      hall_address: {
         type: DataTypes.STRING,
       },
     },
