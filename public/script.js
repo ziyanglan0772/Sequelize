@@ -1,7 +1,8 @@
 window.onload = function () {
-  const host = 'http://localhost:3000';
-
+  const host = '';
+    
   async function get(url) {
+    console.log(`${host}${url}`);
     const res = await fetch(`${host}${url}`);
     const data = await res.json();
     return data;
