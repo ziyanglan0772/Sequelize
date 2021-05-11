@@ -1,5 +1,5 @@
 window.onload = function () {
-  const host = 'http://inst377-0772020.herokuapp.com';
+  const host = 'http://localhost:3000';
 
   async function get(url) {
     const res = await fetch(`${host}${url}`);
